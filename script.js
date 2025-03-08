@@ -48,3 +48,16 @@ if (contactForm) {
     this.reset();
   });
 }
+
+const baseUrl = "https://lexiehealth.com";
+
+// Demo image click handler
+const demoImage = document.querySelector(".demo-image");
+if (demoImage) {
+  demoImage.addEventListener("click", function () {
+    // This would typically open a video or detailed demo
+    // For now, we'll just trigger the same action as the demo button
+    window.location.href =
+      "mailto:lexiehealthai@gmail.com?subject=Demo%20Request&body=I'm%20interested%20in%20seeing%20a%20demo%20of%20LexieHealth%20AI.";
+  });
+}

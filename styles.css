@@ -545,3 +545,53 @@ footer {
     font-size: 1.8rem;
   }
 }
+
+/* Demo Section */
+.demo {
+  background-color: var(--light-bg);
+  text-align: center;
+  padding: 80px 0;
+}
+
+.demo h2 {
+  font-size: 2.2rem;
+  margin-bottom: 20px;
+}
+
+.demo p {
+  max-width: 700px;
+  margin: 0 auto 40px;
+  font-size: 1.1rem;
+}
+
+.demo-video {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.demo-image {
+  width: 100%;
+  border-radius: 10px;
+  box-shadow: var(--shadow);
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.demo-image:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 15px 30px rgba(0, 0, 0, 0.1);
+}
+
+@media (max-width: 768px) {
+  .demo h2 {
+    font-size: 1.8rem;
+  }
+
+  .demo p {
+    font-size: 1rem;
+  }
+}
