@@ -16,13 +16,32 @@
       crossorigin="anonymous"
     ></script>
     <meta property="og:url" content="https://lexiehealth.com" />
+    <meta
+      property="og:title"
+      content="Lexie Health AI - Simplifying OHIP Billing"
+    />
+    <meta
+      property="og:description"
+      content="AI-powered platform that streamlines OHIP billing for healthcare professionals"
+    />
+    <meta property="og:type" content="website" />
+    <meta
+      name="description"
+      content="Lexie Health AI streamlines OHIP billing, reduces errors, and maximizes reimbursements for Ontario healthcare providers."
+    />
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
     <style>
-      .btn-white {
+      .btn-primary {
         color: white !important;
         background-color: #007bff;
+        border-radius: 4px;
+        padding: 12px 24px;
+        transition: all 0.3s ease;
       }
-      .btn-white:hover {
+      .btn-primary:hover {
         color: white !important;
+        background-color: #0069d9;
+        transform: translateY(-2px);
       }
     </style>
   </head>
@@ -37,7 +56,6 @@
             <li><a href="#home">Home</a></li>
             <li><a href="#features">Features</a></li>
             <li><a href="#benefits">Benefits</a></li>
-            <li><a href="#contact">Contact</a></li>
             <li><a href="#demo">See Demo</a></li>
           </ul>
         </nav>
@@ -53,7 +71,9 @@
             errors, and maximizes reimbursements for Ontario healthcare
             providers.
           </p>
-          <a href="#contact" class="btn btn-white">Get Started</a>
+          <a href="mailto:lexiehealthai@gmail.com" class="btn btn-primary"
+            >Get Started</a
+          >
         </div>
         <div class="hero-image">
           <img src="hero-image.svg" alt="AI Healthcare Illustration" />
@@ -148,24 +168,28 @@
     </section>
 
     <section id="demo" class="demo">
-      <div class="container"></div>
+      <div class="container">
+        <h2>See LexieHealth in Action</h2>
+        <p>
+          Watch how our AI-powered platform transforms OHIP billing for
+          healthcare professionals.
+        </p>
+        <div class="demo-video">
+          <!-- Video embed or screenshot placeholder -->
+          <img src="demo-placeholder.jpg" alt="Product Demo" />
+          <a href="#" class="btn btn-primary">Request Full Demo</a>
+        </div>
+      </div>
     </section>
 
-    <section id="contact" class="contact">
+    <section class="cta">
       <div class="container">
         <h2>Ready to Transform Your Billing Process?</h2>
         <p>
-          Contact us today to schedule a demo or learn more about how
-          LexieHealth can help your practice.
+          Start optimizing your OHIP billing workflow today with LexieHealth AI.
         </p>
-        <div class="contact-info">
-          <div class="contact-item">
-            <i class="fas fa-envelope"></i>
-            <p>lexiehealthai@gmail.com</p>
-          </div>
-        </div>
-        <a href="mailto:lexiehealthai@gmail.com" class="btn btn-white"
-          >Contact Us</a
+        <a href="mailto:lexiehealthai@gmail.com" class="btn btn-primary"
+          >Get Started</a
         >
       </div>
     </section>
@@ -176,6 +200,7 @@
           <div class="footer-logo">
             <h3>LexieHealth</h3>
             <p>Revolutionizing healthcare billing with AI</p>
+            <p class="contact-email">Email: lexiehealthai@gmail.com</p>
           </div>
           <div class="footer-links">
             <h4>Quick Links</h4>
@@ -186,17 +211,10 @@
               <li><a href="#demo">See Demo</a></li>
             </ul>
           </div>
-          <div class="footer-social">
-            <h4>Connect With Us</h4>
-            <div class="social-icons">
-              <a href="#"><i class="fab fa-linkedin"></i></a>
-              <a href="#"><i class="fab fa-twitter"></i></a>
-              <a href="#"><i class="fab fa-facebook"></i></a>
-            </div>
-          </div>
         </div>
         <div class="footer-bottom">
           <p>&copy; 2025 LexieHealth. All rights reserved.</p>
+          <p>PHIPA Compliant | Privacy Policy | Terms of Service</p>
         </div>
       </div>
     </footer>
