@@ -261,6 +261,7 @@ nav ul li a:hover::after {
   margin-bottom: 15px;
   position: relative;
   padding-left: 30px;
+  white-space: nowrap;
 }
 
 .benefits-content ul li::before {
@@ -531,6 +532,10 @@ footer {
 
   .social-icons {
     justify-content: center;
+  }
+
+  .benefits-content ul li {
+    white-space: normal;
   }
 }
 
