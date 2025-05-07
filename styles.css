@@ -109,6 +109,14 @@ header .container {
   align-items: center;
 }
 
+.logo {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  height: 100%;
+}
+
 .logo h1 {
   font-size: 1.8rem;
   margin-bottom: 0;
@@ -118,6 +126,12 @@ header .container {
 .logo span {
   color: var(--primary-color);
   font-weight: 700;
+}
+
+.logo p {
+  margin-top: 2px;
+  font-size: 1rem;
+  color: var(--light-text);
 }
 
 nav ul {
